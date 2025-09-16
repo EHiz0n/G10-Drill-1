@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of a Trapezoid computation</title><style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      text-align: center;
+      background-color: maroon;
+    }
+
+
+
+    form {
+      margin-bottom: 15px;
+    }
+
+
+    output {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+
+
+</head>
+<body>
+
+  
+    <!-- <form>
+        <input type="text" id="username" placeholder="Enter your username"><br>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+        <input type="button" value="Login" py-click="getting_data">
+    </form> -->
+    <form>
+        <input type="number" id="base1" placeholder="Enter Base 1"><br>
+        <input type="number" id="base2" placeholder="Enter Base 2"><br>   
+        <input type="number" id="height" placeholder="Enter Height"><br>
+        <input type="button" value="Calculate Area" py-click="trapezoid_area">
+    </form>
+
+    <div id="output"></div>  
+    <py-script src="main.py"></py-script>
+</body>
+</html>
